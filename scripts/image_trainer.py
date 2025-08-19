@@ -153,8 +153,8 @@ def get_model_path(path: str) -> str:
 def create_config(task_id, model, model_type, expected_repo_name=None, hours_to_complete=2, is_warmup=True, level="win", batch=32, seq=1024, lrate=0.0002, runtime=10, elaptime=0):
     # time_percent = 0.89
     # time_limit = 15
-    time_percent = 0.87
-    time_limit = 20
+    time_percent = 0.83
+    time_limit = 10
 
     warmup_percent = 0.10
     warmup_limit = 5
@@ -272,8 +272,8 @@ def run_training(task_id, model, model_type, expected_repo_name, hours_to_comple
 
     # time_percent = 0.89
     # time_limit = 15
-    time_percent = 0.87
-    time_limit = 20
+    time_percent = 0.83
+    time_limit = 10
 
 
     try:
